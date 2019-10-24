@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Homework</title>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+    <header class="header _mid"></header>
+    <div class="main_area _mid">
+      <aside class="aside">
+        <img class="aside" src="./images/left_profile.png">
+      </aside>
+      <main class="main">
+        <article class="info">
+          <h1>個人基本資料</h1>
+          <table class="info">
+            <tr>
+              <td><span class="table_title">姓名：</span>莊宇軒</td>
+              <td><span class="table_title">性別：</span>男</td>
+              <td colspan="2"><span class="table_title">出生年月日：</span>民國 82 年 01 月 13 日</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span class="table_title">居住地：</span>桃園市中壢區中央路150號</td>
+              <td colspan="2"><span class="table_title">學歷：</span>大學</td>
+            </tr>
+            <tr>
+              <td colspan="4"><span class="table_title">簡短自介：</span>學習APP 與基礎的前端開發，了解建置流程，希望能開發出好用、方便的APP。</td>
+            </tr>
+          </table>
+        </article>
+        <article class="experence">
+          <h1>工作或社團經驗</h1>
+          <ul>
+            <li>2016 年：退伍後接觸Minecraft ，開始在Minecraft 上設計解謎地圖，開始對遊戲、程式開發產生興趣。</li>
+            <li>2018 年：開始利用業餘時間學習Java 與Unity 。</li>
+            <li>2019 年：在資策會APP 班開始學習APP 開發。</li>
+          </ul>
+        </article>
+        <article class="connect">
+          <h1 class="form">與我聯繫</h1>
+          <form action="#" method="get">
+            <div class="connect" id="email">
+              <label class="connect_text">：Email</label>
+              <input class="required" type="email" name="email">
+              <p class="required_msg"> </p>
+            </div>
+            <div class="connect" id="time">
+              <label class="connect_text">：希望回覆時間</label>
+              <div class="connect_time" name="time">
+                <label class="connect_time">
+                  <input type="radio" name="connect_time" value="am">
+                  上午
+                </label>
+                <label class="connect_time">
+                  <input type="radio" name="connect_time" value="pm">
+                  下午
+                </label>
+                <label class="connect_time">
+                  <input type="radio" name="connect_time" value="night">
+                  晚上
+                </label>
+              </div>
+              <p class="required_msg"> </p>
+            </div>
+            <div class="connect" id="notes">
+              <label class="connect_text">：事項</label>
+              <textarea class="required" name="notes"></textarea>
+              <p class="required_msg"> </p>
+            </div>
+            <label class="connect_text _button"> </label>
+            <button class="send" type="button" name="button">資料送出</button>
+          </form>
+        </article>
+      </main>
+    </div>
+    <footer class="footer _mid">
+      <label class="copy_right">&copy; All Rights Reserved.</label>
+    </footer>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
