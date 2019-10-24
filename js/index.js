@@ -33,6 +33,8 @@ $("button.send").on("click", function(){
       Connect_time: tx_connect_time,
       Notes: tx_notes
     }
+    //ajax試做
+    /*
     $.ajax({
       url: '#',
       type: 'post',
@@ -47,7 +49,9 @@ $("button.send").on("click", function(){
         }
       }
     });
-    alert("資料送出！\n" + JSON.stringify(connect_msg));
+    */
+    alert("資料送出！\n");
+    console.log(JSON.stringify(connect_msg))
   }else{
     alert("資料不完整或格式有誤\n");
   }
